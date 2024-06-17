@@ -48,10 +48,10 @@ $(document).ready(function () {
                     } `;
                 document.getElementsByTagName('head')[0].appendChild(swiper_pagination_fractionwe_style); var slide_imagewe_style = document.createElement('style'); slide_imagewe_style.type = 'text/css'; slide_imagewe_style.innerHTML =
                     ` .slide-image{   transition:transform .2s;
- } `;
+                    } `;
                 document.getElementsByTagName('head')[0].appendChild(slide_imagewe_style); var slide_contentwe_style = document.createElement('style'); slide_contentwe_style.type = 'text/css'; slide_contentwe_style.innerHTML =
                     ` .slide-content{   transition:opacity .2s;
- } `;
+                    } `;
                 document.getElementsByTagName('head')[0].appendChild(slide_contentwe_style); $('.slider-item').on('mouseover', function () {
                     $(this).find('.slide-image').css({
                         'transform': 'scale(1.1)',
